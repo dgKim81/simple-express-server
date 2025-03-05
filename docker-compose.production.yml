@@ -3,8 +3,8 @@ services:
     image: playground
     build:
       context: .
-      dockerfile: ./Dockerfile
+      dockerfile: ./demo-api/Dockerfile
     env_file:
-      - .production.env
+      - ./demo-api/.production.env
     ports:
       - 3000:3000
