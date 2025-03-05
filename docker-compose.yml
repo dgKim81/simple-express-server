@@ -14,7 +14,7 @@ services:
     image: playground
     build:
       context: .
-      dockerfile: ./Dockerfile
+      dockerfile: ./demo-api/Dockerfile
     env_file:
       - .development.env
     environment:
